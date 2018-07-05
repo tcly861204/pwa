@@ -1,7 +1,8 @@
-const cacheName="pwa-step-1";
+const cacheName="pwa-step-2";
 const filesToCache = [
   "/pwa/js/basic.js",
   "/pwa/css/main.css",
+  "/pwa/img/face.jpg",
   "/pwa/index.html",
   "/pwa/",
   "/"
