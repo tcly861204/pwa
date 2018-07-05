@@ -1,6 +1,6 @@
 {
-  "name": "Minimal app to try PWA",
-  "short_name": "Minimal PWA",
+  "name": "吴天赐PWA",
+  "short_name": "吴天赐",
   "display": "standalone",
   "start_url": "/pwa/index.html",
   "theme_color": "#8888ff",
