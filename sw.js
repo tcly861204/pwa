@@ -4,6 +4,7 @@ const filesToCache = [
   "/pwa/css/main.css",
   "/pwa/img/face.jpg",
   "/pwa/index.html",
+  "/pwa/json/manifest.json",
   "/pwa/",
   "/"
 ];
