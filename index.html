@@ -11,6 +11,16 @@
 <h1 class="title">hello PWA</h1>
 <img class="face" src="https://tcly861204.github.io/images/face.jpg" />
 <h2 class="user">wtc</h2>
-
+<script>
+  if('ServiceWorker' in window){
+    navigator.serviceWorker.register('/pwa/js/sw.js')
+      .then(function(reg){
+        console.log('注册成功'+reg.scope);
+      })
+      .catch(function(error){
+        console.log('注册失败');
+      });
+  }
+</script>
 </body>
 </html>
