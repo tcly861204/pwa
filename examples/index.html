@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PWA学习</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="manifest" href="json/manifest.json" />
+  <script src="js/main.js"></script>
+</head>
+<body>
+<h1 class="title">HELLO PWA</h1>
+<img class="face" src="img/face.jpg" />
+<h2 class="user">wtc</h2>
+<script>
+  if('ServiceWorker' in window){
+    navigator.serviceWorker.register('/pwa/sw.js')
+      .then(function(reg){
+        console.log('注册成功'+reg.scope);
+      })
+      .catch(function(error){
+        console.log('注册失败');
+      });
+  }
+</script>
+</body>
+</html>
