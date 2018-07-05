@@ -1,9 +1,10 @@
-const cacheName="pwa-step-4";
+const cacheName="pwa-step-1";
 const filesToCache = [
   "/pwa/js/basic.js",
   "/pwa/css/main.css",
   "/pwa/index.html",
   "/pwa/",
+  "/"
 ];
 
 function updateStaticCache(){
