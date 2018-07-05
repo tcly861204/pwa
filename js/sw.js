@@ -4,6 +4,7 @@ const filesToCache = [
   "/pwa/css/main.css",
   "/pwa/index.html",
   "/pwa/",
+  "/"
 ];
 
 function updateStaticCache(){
