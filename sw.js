@@ -2,7 +2,6 @@ const cacheName="pwa-step-4";
 const filesToCache = [
   "/pwa/js/basic.js",
   "/pwa/css/main.css",
-  "/pwa/img/face.jpg",
   "/pwa/index.html",
   "/pwa/",
 ];
