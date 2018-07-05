@@ -7,9 +7,14 @@
   "background_color": "#aaaaff",
   "icons": [
     {
-      "src": "/pwa/img/face.jpg",
+      "src": "/pwa/img/icon_120.png",
       "sizes": "120x120",
-      "type": "image/jpeg"
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa/img/icon_144.png",
+      "sizes": "144x144",
+      "type": "image/png"
     }
   ]
 }
