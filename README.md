@@ -43,5 +43,10 @@ touch index.html json/manifast.json sw.js css/main.css js/main.js app.js
 ```
 
 #### ● 现场实战
-
 > 源码地址  https://github.com/tcly861204/pwa.git
+
+
+#### ● 阅读文献
++ https://blog.csdn.net/u013488847/article/details/79776622
++ https://blog.csdn.net/lecepin/article/details/78911091
++ https://www.oschina.net/news/93871/pwa-expected-major-explosion-2018
