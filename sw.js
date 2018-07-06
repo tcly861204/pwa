@@ -20,8 +20,8 @@ const filesToCache = [
   "/pwa/js/application.js",
   "/pwa/css/fonts/ClearSans-Bold-webfont.woff",
   "/pwa/css/fonts/ClearSans-Regular-webfont.woff",
+  "/pwa/docs/",
   "/pwa/docs/index.html",
-  "/pwa/docs/"
   "/pwa/",
   "/"
 ];
