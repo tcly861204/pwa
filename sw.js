@@ -6,6 +6,7 @@ const filesToCache = [
   "/pwa/css/fonts/clear-sans.css",
   "/pwa/img/icon_120.png",
   "/pwa/img/icon_144.png",
+  "/pwa/img/qrcode.png",
   "/pwa/index.html",
   "/pwa/json/manifest.json",
   "/pwa/js/bind_polyfill.js",
