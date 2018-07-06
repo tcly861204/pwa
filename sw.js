@@ -21,7 +21,6 @@ const filesToCache = [
   "/pwa/css/fonts/ClearSans-Bold-webfont.woff",
   "/pwa/css/fonts/ClearSans-Regular-webfont.woff",
   "/pwa/docs/",
-  "/pwa/css/marxico.css",
   "/pwa/docs/index.html",
   "https://dn-maxiang.qbox.me/res-min/themes/marxico.css",
   "/pwa/",
