@@ -7,7 +7,6 @@ const filesToCache = [
   "/pwa/img/icon_120.png",
   "/pwa/img/icon_144.png",
   "/pwa/index.html",
-  "/pwa/docs/index.html",
   "/pwa/json/manifest.json",
   "/pwa/js/bind_polyfill.js",
   "/pwa/js/classlist_polyfill.js",
@@ -21,6 +20,8 @@ const filesToCache = [
   "/pwa/js/application.js",
   "/pwa/css/fonts/ClearSans-Bold-webfont.woff",
   "/pwa/css/fonts/ClearSans-Regular-webfont.woff",
+  "/pwa/docs/index.html",
+  "/pwa/docs/"
   "/pwa/",
   "/"
 ];
