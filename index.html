@@ -88,6 +88,17 @@
           console.log('注册失败');
         });
     }
+    if (Notification.permission == "granted") {
+      var notification = new Notification("Hi，帅哥：", {
+          body: '可以加你为好友吗？',
+          icon: '/pwa/img/icon_120.png'
+      });
+
+      notification.onclick = function() {
+          text.innerHTML = '张小姐已于' + new Date().toTimeString().split(' ')[0] + '加你为好友！';
+          notification.close();
+      };
+    }
   </script>
 </body>
 </html>
