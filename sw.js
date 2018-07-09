@@ -1,4 +1,4 @@
-const cacheName="pwa-step-11";
+const cacheName="pwa-step-12";
 const filesToCache = [
   "/pwa/meta/apple-touch-icon.png",
   "/pwa/favicon.ico",
@@ -56,7 +56,7 @@ self.addEventListener('fetch',function(event){
       if(response!==null){
         return response;
       }
-      return fetch(event.request.url);
+      return fetch(event.request);
     })
   )
 },false);
