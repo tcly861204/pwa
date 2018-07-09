@@ -1,4 +1,4 @@
-const cacheName="pwa-step-8";
+const cacheName="pwa-step-9";
 const filesToCache = [
   "/pwa/meta/apple-touch-icon.png",
   "/pwa/favicon.ico",
@@ -62,3 +62,29 @@ self.addEventListener('fetch',function(event){
 },false);
 
 
+self.addEventListener('push', function (e) {
+  var data = e.data;
+  if (e.data) {
+      data = data.json();
+      console.log('push的数据为：', data);
+      var title = 'PWA即学即用';
+      var options = {
+          body: data,
+          icon: '/pwa/img/icon_120.png',
+          image: '/pwa/img/icon_120.png', // no effect
+          actions: [{
+              action: 'show-book',
+              title: '去看看'
+          }, {
+              action: 'contact-me',
+              title: '联系我'
+          }],
+          tag: 'pwa-starter',
+          renotify: true
+      };
+      self.registration.showNotification(title, options);
+  }
+  else {
+      console.log('push没有任何数据');
+  }
+});
