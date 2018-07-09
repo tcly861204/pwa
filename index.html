@@ -88,7 +88,7 @@
           console.log('注册失败');
         });
     }
-    if (Notification.permission == "granted") {
+    if (window.Notification) {
       var notification = new Notification("Hi，帅哥：", {
           body: '可以加你为好友吗？',
           icon: '/pwa/img/icon_120.png'

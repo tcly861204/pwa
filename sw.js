@@ -1,4 +1,4 @@
-const cacheName="pwa-step-5";
+const cacheName="pwa-step-1";
 const filesToCache = [
   "/pwa/meta/apple-touch-icon.png",
   "/pwa/favicon.ico",
