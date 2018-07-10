@@ -1,4 +1,4 @@
-const cacheName="pwa-step-12";
+const cacheName="pwa-step-13";
 const filesToCache = [
   "/pwa/meta/apple-touch-icon.png",
   "/pwa/favicon.ico",
@@ -60,50 +60,3 @@ self.addEventListener('fetch',function(event){
     })
   )
 },false);
-
-self.addEventListener('push', function(event) {
-  var title = 'Yay a message.';
-  var body = 'We have received a push message.';
-  var icon = '/images/icon-192x192.png';
-  var tag = 'simple-push-demo-notification-tag';
-  var data = {
-    doge: {
-        wow: 'such amaze notification data'
-    }
-  };
-  event.waitUntil(
-    self.registration.showNotification(title, {
-      body: body,
-      icon: icon,
-      tag: tag,
-      data: data
-    })
-  );
-});
-// self.addEventListener('push', function (e) {
-//   var data = e.data;
-//   console.log(e);
-//   if (e.data) {
-//       data = data.json();
-//       console.log('push的数据为：', data);
-//       var title = 'PWA即学即用';
-//       var options = {
-//           body: data,
-//           icon: '/pwa/img/icon_120.png',
-//           image: '/pwa/img/icon_120.png', // no effect
-//           actions: [{
-//               action: 'show-book',
-//               title: '去看看'
-//           }, {
-//               action: 'contact-me',
-//               title: '联系我'
-//           }],
-//           tag: 'pwa-starter',
-//           renotify: true
-//       };
-//       self.registration.showNotification(title, options);
-//   }
-//   else {
-//       console.log('push没有任何数据');
-//   }
-// });
